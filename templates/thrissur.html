@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to kerala</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="icon" href="{% static '/images/Kerala_Houseboat.png' %}" type="x-icon">
+  </head>
+<body class="bg-light">
+    <header>
+    
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary  ">
+     
+      <a class="navbar-brand order-lg-1 mr-0" href="#"><img src="{% static '/images/Kerala_Houseboat.png' %}" style="width:300px;height:60px;" alt="kerla houseboat"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-3">
+            <a class="nav-item nav-link " href="/index/">Home </a>
+            <a class="nav-item nav-link active" href="/explore/">Explore</a>
+            <a class="nav-item nav-link " href="/signin/">Sign in</a>
+            <a class="nav-item nav-link  " href="/signup/" >Sign up</a>
+         
+        </div>
+      </div>
+      </nav>
+    <!-- /navbar-->  
+  <main class="mycontainer text-center ">
+<!--- About district-->
+<div class="tm-row">
+  <div class="tm-col-left">
+      <section class="tm-content">
+
+          <div class="imag" >
+          <img src="{% static '/images/thrissur.webp' %}" alt="Image" class="tm-service-img">
+
+        </div>
+                  <section class="tm-content">
+                      <!-- <hr class="mb-3"> -->
+                      <h2 class="mb-5 tm-content-title">Thrissur</h2>
+                      <p class="mb-5">The cultural capital of Kerala, the Poorams or temple festivals in Thrissur draw in thousands of people every single year as these carnivals encapsulate every single part of Kerala's rich heritage. These are a hotbed of folk art performances and heritage tours that will give you an in depth look into some of the grandest traditions of the State. From majestic elephants to colourful pulikali processions to the world renowned Thrissur Pooram, there is always a festive atmosphere in the air. The district is also the abode of several cultural centres like Kerala Kalamandalam, Sahitya Academy and the Sangeetha Nataka Academy. Thrissur is a place one must visit at least once in their lifetime. The people, swaying with the beats of the chenda, shall help you understand the true heart and spirit of Kerala.</p>                        
+                      
+                      <!-- <hr class="mb-5"> -->
+                  </section>
+                                  
+      </section>
+  </div>
+  </div>
+  <hr>
+  
+  <h2>Tourist Attractions</h2>
+  <div>
+    <div class="row">
+        <div class="col-md">
+          <div class="thumbnail">
+            <div>
+              <img src="{% static '/images/Athirapally_Falls_(14829003357).jpg' %}" class="rounded" alt="Athirapally Falls" style="width:100%">
+              <div class="caption">
+                <h2 class="tm-content-title">Athirappilly Waterfalls</h2>
+                            <p>Located 60 km from Thrissur city, Athirapally Falls is a haven for flora and fauna alike. It is a popular picnic spot and the scenic beauty of the waterfall offers spectacular visuals for visitors.</p>                        
+                            <hr>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col-md">
+                  <div class="thumbnail">
+                    <div>
+                      <img src="{% static '/images/kollamkodepalace.jpg' %}" class="rounded" alt="kollamkode palace" style="width:100%">
+                      <div class="caption">
+                        <h2 class="tm-content-title">kollamkode palace</h2>
+                        <p>Located 60 km from Thrissur city, Athirapally Falls is a haven for flora and fauna alike. It is a popular picnic spot and the scenic beauty of the waterfall offers spectacular visuals for visitors.</p>                        
+                        <hr>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+               
+  </div>
+
+ <hr>
+  
+    <div class="row">
+  <div class="col-md">
+    <div class="thumbnail">
+      <div>
+        <img src="https://www.holidify.com/images/cmsuploads/square/attr_wiki_3642_20191111182143.jpg" class="rounded" alt="Charpa Waterfalls" style="width:100%">
+        <div class="caption">
+          <h2 class="tm-content-title">Charpa Waterfalls</h2>
+          <p>Charpa Falls is another one of the nature's delight that displays the blessings of Mother Nature. Cascading down from a shot height, this fall which is a part of River Chalakkudy offers a breathtaking experience. Athirappilly Falls and Lake Vachumaram are a stone's throw away from Charpa Falls.</p>                        
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="col-md">
+    <div class="thumbnail">
+      <div>
+        <img src="https://www.holidify.com/images/attr_square/3783.jpg" class="rounded" alt="Vadakkumnnathan Temple" style="width:100%">
+        <div class="caption">
+          <h2 class="tm-content-title">Vadakkumnnathan Temple</h2>
+                            <p>With a collection of beautiful Mural paintings, some of which are more than 400 years old, this gigantic 1000 year old temple and historical structure is famous for the Nataraja Mural near the main gate.</p>                        
+                            <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</section>
+ 
+  </main>
+ 
+
+
+<!-- Footer -->
+<footer >
+<section id="lab_social_icon_footer">
+
+  <div class="container">
+          <div class="text-center center-block">
+                  <a href="#"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+      </div>
+  </div>
+  </section>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 bg-dark text-white">&copy;Al 2021
+      <a href="/index/">keralatourism</a>
+    </div>
+    <!-- Copyright -->  
+  </footer>
+<!-- Footer -->
+
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to kerala</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="icon" href="{% static '/images/Kerala_Houseboat.png' %}" type="x-icon">
+  </head>
+<body class="bg-light">
+    <header>
+    
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary  ">
+     
+      <a class="navbar-brand order-lg-1 mr-0" href="#"><img src="{% static '/images/Kerala_Houseboat.png' %}" style="width:300px;height:60px;" alt="kerla houseboat"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-3">
+            <a class="nav-item nav-link " href="/index/">Home </a>
+            <a class="nav-item nav-link active" href="/explore/">Explore</a>
+            <a class="nav-item nav-link " href="/signin/">Sign in</a>
+            <a class="nav-item nav-link  " href="/signup/" >Sign up</a>
+         
+        </div>
+      </div>
+      </nav>
+    <!-- /navbar-->  
+  <main class="mycontainer text-center">
+<!--- About district-->
+<div class="tm-row">
+  <div class="tm-col-left">
+      <section class="tm-content">
+
+          <div class="imag">
+              <img src="{% static '/images/kasargod.jpg' %}" alt="Image" class="tm-service-img">
+
+          </div>
+          
+                  <section class="tm-content">
+                      <!-- <hr class="mb-3"> -->
+                      <h2 class="mb-5 tm-content-title">Kasargod</h2>
+                      <p class="mb-5">The northernmost district of Kerala, Kasaragod is renowned for its hills, forts and water bodies. The coir and handloom industry here are extremely famous around the world. The place is also popular for its ancient temples and rich biodiversity. It is an important border district as well that regulates trade with a lot of neighbouring States. Legends regarding the district greet you at every turn on a visit here. A trip here is incomplete without visiting Bekal Fort, the most majestic and well maintained fort in South India.</p>                        
+                      
+                      <!-- <hr class="mb-5"> -->
+                  </section>
+                                  
+      </section>
+  </div>
+<hr>
+  <h2>Tourist Attractions</h2>
+  <div>
+    <div class="row">
+        <div class="col-md">
+          <div class="thumbnail">
+            <div>
+              <img src="{% static '/images/bekkalfort.jpg' %}" class="rounded" alt="Bekkal Fort" style="width:100%">
+              <div class="caption">
+                <h2 class="tm-content-title">Bekkalfort</h2>
+         <p>India declared Bekal Fort a special tourism area in 1992[5] and formed Bekal Tourism Development Corporation three years later to promote it.[6] The song 'Uyire' (Tamil) from the movie Bombay was shot at Bekal Fort.</p>                        
+          <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col-md">
+                  <div class="thumbnail">
+                    <div>
+                      <img src="{% static '/images/Ranipuram_hill.jpg' %}" class="rounded" alt="ranipuram hills" style="width:100%">
+                      <div class="caption">
+                        <h2 class="tm-content-title">Ranipuram</h2>
+                            <p>The gentle hills of Ranipuram in Kerala are famous for its trekking trail. Situated at the height of about 750 meters above sea level, this destination has thick forest vegetation and lush green grasslands. The whole place is proposed inside the Ranipuram Wildlife Sanctuary which merges with Talakaveri Wildlife Sanctuary of Karnataka.</p>                        
+                            <hr>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+  </div>
+
+  <hr>
+  
+  <div class="row">
+ <div class="col-md">
+  <div class="thumbnail">
+    <div>
+      <img src="https://www.holidify.com/images/attr_square/4928.jpg" class="rounded" alt="Charpa Waterfalls" style="width:100%">
+      <div class="caption">
+        <h2 class="tm-content-title">Malom Wildlife Sanctuary</h2>
+        <p>A popular tourist attraction of Kanhagad region, Malom Wildlife Sanctuary is all about lush green tropical green forest and variety of wildlife.</p>                        
+        <hr>
+      </div>
+    </div>
+  </div>
+ </div>
+ 
+ 
+ <div class="col-md">
+  <div class="thumbnail">
+    <div>
+      <img src="https://www.holidify.com/images/cmsuploads/square/ananthapura-lake-temple_20171219215809.jpg" class="rounded" alt="Vadakkumnnathan Temple" style="width:100%">
+      <div class="caption">
+        <h2 class="tm-content-title">Ananthapura Lake Temple</h2>
+        <p>The temple is situated in Kasargod district of Kerala and is connected to Sri Anantha Padmanabha Temple ,Trivandrum. It's a lovely temple surrounded by a lake. It is heard by the local people that there is a crocodile in this lake which protects the temple. The tourists have to remove their shirt before they enter the temple.</p>                        
+        <hr>
+      </div>
+    </div>
+  </div>
+ </div>
+ </div>
+
+</section>
+ 
+  </main>
+ 
+
+
+<!-- Footer -->
+<footer >
+<section id="lab_social_icon_footer">
+
+  <div class="container">
+          <div class="text-center center-block">
+                  <a href=""><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href=""><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href=""><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+      </div>
+  </div>
+  </section>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 bg-dark text-white">© Al 2021 Copyright:
+      <a href="/index/">keralatourism</a>
+    </div>
+    <!-- Copyright -->  
+  </footer>
+<!-- Footer -->
+
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

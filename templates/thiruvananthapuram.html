@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to kerala</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="icon" href="{% static '/images/Kerala_Houseboat.png' %}" type="x-icon">
+  </head>
+<body class="bg-light">
+    <header>
+    
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary  ">
+     
+      <a class="navbar-brand order-lg-1 mr-0" href="#"><img src="{% static '/images/Kerala_Houseboat.png' %}" style="width:300px;height:60px;" alt="kerla houseboat"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-3">
+            <a class="nav-item nav-link " href="/index/">Home </a>
+            <a class="nav-item nav-link active" href="/explore/">Explore</a>
+            <a class="nav-item nav-link " href="/signin/">Sign in</a>
+            <a class="nav-item nav-link  " href="/signup/" >Sign up</a>
+         
+        </div>
+      </div>
+      </nav>
+    <!-- /navbar-->  
+  <main class="mycontainer text-center">
+<!--- About district-->
+
+
+  <div class="tm-col-left">
+      <section class="tm-content">
+
+          <div class="imag">
+              <img src="{% static '/images/thiruvananthapuram.jfif' %}" alt="Image" class="tm-service-img">
+
+          </div>
+          
+                  <section class="tm-content">
+                      <!-- <hr class="mb-3"> -->
+                      <h2 class="mb-5 tm-content-title">Thiruvananthapuram</h2>
+                      <p class="mb-5">Located in the southwestern tip of India, Thiruvananthapuram is bound by the Arabian Sea in the west and Tamil Nadu in the east. Named after Anantha Padmanabha or Lord Vishnu, the city is home to many ancient temples. But the landmark is the Sree Padmanabha Swamy Temple around which the city has been built on seven low hills. The wooded highlands of the Western Ghats in the eastern and northeastern borders give Thiruvananthapuram some of the most enchanting picnic spots. A long shoreline with internationally renowned beaches, historic monuments, backwater stretches and a rich cultural heritage make this district a much sought-after tourist destination. Clean and green, Thiruvananthapuram, the capital of Kerala is one of the most beautiful cities in the country.</p>                        
+                      
+                      <!-- <hr class="mb-5"> -->
+                  </section>
+                                  
+      </section>
+  </div>
+
+<hr>
+  <h2>Tourist Attractions</h2>
+  <div>
+    <div class="row">
+        <div class="col-md">
+          <div class="thumbnail">
+            <div>
+              <img src="{% static '/images/kovalambeach.jpg' %}" class="rounded" alt="kovalamvbeach" style="width:100%">
+              <div class="caption">
+                <h2 class="tm-content-title">kovalambeach</h2>
+          <p>Kovalam is a small coastal town in the southern Indian state of Kerala, south of Thiruvananthapuram. At the southern end of Lighthouse Beach is a striped lighthouse with a viewing platform. Palm-backed beaches also include Hawa Beach and Samudra Beach. Heading south, Vizhinjam Juma Masjid mosque overlooks the busy fishing harbor. Inland, Sagarika Marine Research Aquarium displays technology used in pearl production.</p>
+          <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col-md">
+                  <div class="thumbnail">
+                    <div>
+                      <img src="{% static '/images/kowadiar_palace.jpg' %}" class="rounded" alt="kovadiar palace" style="width:100%">
+                      <div class="caption">
+                        <h2 class="tm-content-title">kowadiar palace</h2>
+          <p>Kowdiar Palace in Thiruvananthapuram, Kerala, India was built in 1934 by Maharajah Sree Chithira Thirunal Balarama Varma, on Pallikettu of his only sister, Maharani Karthika Thirunal Lakshmi Bayi with Lt. Col. G. V. Raja.</p>
+          <hr>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+          
+  </div>
+  <hr>
+
+  <div class="row">
+    <div class="col-md">
+     <div class="thumbnail">
+       <div>
+         <img src="https://www.holidify.com/images/attr_square/3815.jpg" class="rounded" alt="Charpa Waterfalls" style="width:100%">
+         <div class="caption">
+          <h2 class="tm-content-title">Neyyar Dam & Wildlife Sanctuary</h2>
+                            <p>Famous for its Lion and Deer Safari, Neyyar Wildlife Sanctuary is a treat for nature enthusiasts. The park houses a crocodile farm and elephant rehabilitation centre. Ask for a guided tour of the sanctuary which is quite informative.</p>                        
+                            <hr>
+         </div>
+       </div>
+     </div>
+    </div>
+    
+    
+    <div class="col-md">
+     <div class="thumbnail">
+       <div>
+         <img src="https://www.holidify.com/images/cmsuploads/square/6580072031_bd440e0838_b_20180205133850.jpg" class="rounded" alt="Vadakkumnnathan Temple" style="width:100%">
+         <div class="caption">
+          <h2 class="tm-content-title">Sree Padmanabhaswamy Temple</h2>
+          <p>One of the 108 Divya Desams, Sree Padmanabhaswamy Temple is located in Thiruvananthapuram, the capital city of Kerala. Embellished in gold-plated covering, the temple is opened only to Hindu followers. Dedicated to Lord Padmanabha; one of the avatars of Lord Vishnu, the Padmanabhaswamy Temple is one of the principal centres of Vaishnava worship in the dharma of Vaishnavism.</p>                        
+          <hr>
+         </div>
+       </div>
+     </div>
+    </div>
+    </div>
+   
+
+</section>
+ 
+  </main>
+ 
+
+
+<!-- Footer -->
+<footer >
+<section id="lab_social_icon_footer">
+
+  <div class="container">
+          <div class="text-center center-block">
+                  <a href="#"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+      </div>
+  </div>
+  </section>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 bg-dark text-white">&copy;Al 2021
+      <a href="/index/">keralatourism</a>
+    </div>
+    <!-- Copyright -->  
+  </footer>
+<!-- Footer -->
+
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

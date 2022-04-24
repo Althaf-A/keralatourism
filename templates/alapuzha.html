@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to kerala</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="icon" href="{% static '/images/Kerala_Houseboat.png' %}" type="x-icon">
+  </head>
+<body class="bg-light">
+    <header>
+    
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary  ">
+     
+      <a class="navbar-brand order-lg-1 mr-0" href="#"><img src="{% static '/images/Kerala_Houseboat.png' %}" style="width:300px;height:60px;" alt="kerla houseboat"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-3">
+            <a class="nav-item nav-link " href="/index/">Home </a>
+            <a class="nav-item nav-link active" href="/explore/">Explore</a>
+            <a class="nav-item nav-link " href="/signin/">Sign in</a>
+            <a class="nav-item nav-link  " href="/signup/" >Sign up</a>
+         
+        </div>
+      </div>
+      </nav>
+    <!-- /navbar-->  
+  <main class="mycontainer text-center">
+<!--- About district-->
+<section>
+  <div class="tm-col-left">
+    <section class="tm-content">
+
+        <div class="imag">
+            <img src="{% static '/images/alapuzha.jpg' %}" alt="Image" class="tm-service-img">
+
+        </div>
+        
+                <section class="tm-content">
+                    <!-- <hr class="mb-3"> -->
+                    <h2 class="mb-5 tm-content-title">Alappuzha</h2>
+                    <p class="mb-5">Affectionately nicknamed the 'Venice of the East' by travellers from across the world, Alappuzha is a district of immense natural beauty. Embraced by the Arabian Sea in the west and a network of lakes, lagoons and freshwater rivers criss-crossing it, this backwater country is home toa vibrant animal and avian life. By virtue of its proximity to the sea, the town has always carved out an exclusive place for itself in the maritime history of Kerala.
+
+                        Renowned for its boat races, beaches, marine products and coir industry, the singularity of this land is the region called Kuttanad. A land of lush paddy fields referred to as the 'Rice Bowl of Kerala', it is one of the few places in the world where farming is done below sea level. This once prosperous trading and fishing centre is nowadays a world renowned backwater tourist destination.</p>                        
+                    
+                    <!-- <hr class="mb-5"> -->
+                </section>
+                                
+    </section>
+</div>
+<hr>
+<h2>Tourist Attractions</h2>
+<hr>
+  <div>
+    <div class="row">
+        <div class="col-md">
+          <div class="thumbnail">
+            <div>
+              <img src="{% static '/images/Mannarasala_temple.jpg' %}" class="rounded" alt="Mannarasala_temple" style="width:100%">
+              <div class="caption">
+                <h2 class="tm-content-title">mannarasala temple</h2>
+                <p>Mannarasala Sree Nagaraja Temple in Haripad is a very ancient and internationally known centre of pilgrimage for the devotees of serpent gods. The famous Nagaraja temple "Mannarasala" in Haripad is nestled in a forest glade, like most snake temples</p>
+                <hr>
+
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col-md">
+                  <div class="thumbnail">
+                    <div>
+                      <img src="{% static '/images/kuttanad.jpg' %}" class="rounded" alt="kuttanad" style="width:100%">
+                      <div class="caption">
+                        <h2 class="tm-content-title">Kuttanad</h2>
+                          <p>Kuttanad is a region covering the Alappuzha, Kottayam and Pathanamthitta Districts, in the state of Kerala, India, well known for its vast paddy fields and geographical peculiarities</p>
+                          <hr>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+          
+  </div>
+<hr>
+
+  <div>
+    <div class="row">
+        <div class="col-md">
+          <div class="thumbnail">
+            <div>
+              <img src="https://www.holidify.com/images/cmsuploads/square/A12_20170925211413.PNG" class="rounded" alt="Mannarasala_temple" style="width:100%">
+              <div class="caption">
+                <h2 class="tm-content-title">Alleppey Beach</h2>
+                            <p>Alappuzha is referred to as the Venice of the East which has always enjoyed an important place in the maritime history of Kerala. Presently it is famous for its boat races, backwater holidays, beaches, marine products and coir industry. Alappuzha beach is a popular picnic spot. The pier, which extends into the sea here, is over 137 years old. Entertainment facilities at the Vijaya Beach Park add to the attraction of the beach. There is also an old lighthouse nearby which plays a fascinating sight to the visitors from far and wide.</p>                        
+                            <hr>
+
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col-md">
+                  <div class="thumbnail">
+                    <div>
+                      <img src="https://www.holidify.com/images/cmsuploads/square/attr_2427_20190315131619.jpg" class="rounded" alt="kuttanad" style="width:100%">
+                      <div class="caption">
+                        <h2 class="tm-content-title">Alleppey Backwaters</h2>
+                            <p>Formed by the amalgamation of multiple of various waters sources, backwaters give you the postcard-perfect view with coconut trees lined all along and houseboats in the middle.</p>                        
+                            <hr>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+          
+  </div>
+
+
+</section>
+ 
+  </main>
+ 
+
+
+<!-- Footer -->
+<footer >
+<section id="lab_social_icon_footer">
+
+  <div class="container">
+          <div class="text-center center-block">
+                  <a href=""><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+      </div>
+  </div>
+  </section>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 bg-dark text-white">&copy; Al 2021
+      <a href="/index/">keralatourism</a>
+    </div>
+    <!-- Copyright -->  
+  </footer>
+<!-- Footer -->
+
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

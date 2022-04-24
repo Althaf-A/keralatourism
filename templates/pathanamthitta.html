@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to kerala</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="icon" href="{% static '/images/Kerala_Houseboat.png' %}" type="x-icon">
+  </head>
+<body class="bg-light">
+    <header>
+    
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary  ">
+     
+      <a class="navbar-brand order-lg-1 mr-0" href="#"><img src="{% static '/images/Kerala_Houseboat.png' %}" style="width:300px;height:60px;" alt="kerla houseboat"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-3">
+            <a class="nav-item nav-link " href="/index/">Home </a>
+            <a class="nav-item nav-link active" href="/explore/">Explore</a>
+            <a class="nav-item nav-link " href="/signin/">Sign in</a>
+            <a class="nav-item nav-link  " href="/signup/" >Sign up</a>
+         
+        </div>
+      </div>
+      </nav>
+    <!-- /navbar-->  
+  <main class="mycontainer text-center">
+<!--- About district-->
+<section>
+    
+  <div class="tm-col-left">
+    <section class="tm-content">
+
+        <div class="imag">
+            <img src="{% static '/images/Pathanamthitta_CentralJn.jpg' %}" alt="Image" class="tm-service-img">
+
+        </div>
+        
+                <section class="tm-content">
+                    <!-- <hr class="mb-3"> -->
+                    <h2 class="mb-5 tm-content-title">Pathanamthitta</h2>
+                    <p class="mb-5">A hilly province of pristine splendour, the district of Pathanamthitta is hailed as the headquarters of pilgrim worship in Kerala. Three rivers course through its prosperous terrains comprising natural divisions of the lowlands, the midlands and the highlands. Interspersed with temples, rivers, mountain ranges and coconut groves, more than fifty per cent of the total area of this region is covered by forests.
+
+                        Pathanamthitta has been dubbed a Heritage Village as it attracts visitors from all over the world for its spectacular water fiestas, religious shrines and cultural training centres. Pathanamthitta is also home to the unique AranmulaKannadi - metal mirrors that are meticulously handcrafted and the VasthuVidyaGurukulam, a village which practices the ancient Indian school of architecture.</p>                        
+                    
+                    <!-- <hr class="mb-5"> -->
+                </section>
+                                
+    </section>
+</div>
+
+<hr>
+<h2>Tourist Attractions</h2>
+<hr>
+  <div>
+    <div class="row">
+        <div class="col-md">
+          <div class="thumbnail">
+            <div>
+              <img src="{% static '/images/Gavi,_Kerala.jpg' %}" class="rounded" alt="Gavi" style="width:100%">
+              <div class="caption">
+                <h2 class="tm-content-title">Gavi</h2>
+                <p>Gavi is situated some 14 km away from the famed Periyar Tiger Reserve and is heaven on Earth, quite literally</p>                        
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col-md">
+                  <div class="thumbnail">
+                    <div>
+                      <img src="{% static '/images/Aranmula_Parthasarathy_Temple.jpg' %}" class="rounded" alt="arunmula parthasarathy temple" style="width:100%">
+                      <div class="caption">
+                        <h2 class="tm-content-title">arunmula parthasarathy temple</h2>
+                        <p>The Aranmula Parthasarathy Temple is one of the "Divya Desams", the 108 temples of Vishnu revered by the 12 poet saints, or Alwars located near Aranmula, a village in Pathanamthitta District, Kerala, South India</p>
+                        <hr>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+          
+  </div>
+<hr>
+
+  <div>
+    <div class="row">
+        <div class="col-md">
+          <div class="thumbnail">
+            <div>
+              <img src="https://www.holidify.com/images/attr_square/5618.jpg" class="rounded" alt="Gavi" style="width:100%">
+              <div class="caption">
+                <h2 class="tm-content-title">Perunthenaruvi Waterfalls</h2>
+                <p>A natural waterfall with captivating surroundings is situated on the banks of the River Pamba. The fall is 60 to 100 ft deep which pours down on a rocky bed. The place is a favourite picnic spot among locals as well as tourists.</p>                        
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col-md">
+                  <div class="thumbnail">
+                    <div>
+                      <img src="https://www.holidify.com/images/attr_square/5622.jpg" class="rounded" alt="arunmula parthasarathy temple" style="width:100%">
+                      <div class="caption">
+                        <h2 class="tm-content-title">Thriveni Sangamam</h2>
+                            <p>As the name suggests this place is famous for the meeting point of the three rivers. It serves as the halting point for those on their way to Sabarimala.</p>                        
+                            <hr>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+          
+  </div>
+
+</section>
+ 
+  </main>
+ 
+
+
+<!-- Footer -->
+<footer >
+  <section id="lab_social_icon_footer">
+  
+    <div class="container">
+            <div class="text-center center-block">
+                    <a href="#"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                  <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                  <a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                  <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+    </div>
+    </section>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3 bg-dark text-white">&copy;Al 2021
+        <a href="/index/">keralatourism</a>
+      </div>
+      <!-- Copyright -->  
+    </footer>
+<!-- Footer -->
+
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to kerala</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="icon" href="{% static '/images/Kerala_Houseboat.png' %}" type="x-icon">
+  </head>
+<body class="bg-light">
+    <header>
+    
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary  ">
+     
+      <a class="navbar-brand order-lg-1 mr-0" href="#"><img src="{% static '/images/Kerala_Houseboat.png' %}" style="width:300px;height:60px;" alt="kerla houseboat"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-3">
+            <a class="nav-item nav-link " href="/index/">Home </a>
+            <a class="nav-item nav-link active" href="/explore/">Explore</a>
+            <a class="nav-item nav-link " href="/signin/">Sign in</a>
+            <a class="nav-item nav-link  " href="/signup/" >Sign up</a>
+         
+        </div>
+      </div>
+      </nav>
+    <!-- /navbar-->  
+  <main class="mycontainer text-center">
+<!--- About district-->
+<div class="tm-col-left">
+  <section class="tm-content">
+
+      <div class="imag">
+          <img src="{% static '/images/Ernakulam.jpg' %}" alt="Image" class="tm-service-img">
+
+      </div>
+      
+              <section class="tm-content">
+                  <!-- <hr class="mb-3"> -->
+                  <h2 class="mb-5 tm-content-title">Ernakulam</h2>
+                  <p class="mb-5">Ernakulam is a sprawling metropolis that beautifully combines its natural wonders with providing a base for a majority of the State’s business enterprises. Flanked by the Arabian sea, it is easily among the most visited locations in Kerala. It is an extremely important commercial centre but also has a plethora of destinations for tourists to enjoy. The city of Kochi, with its fine natural harbour, is the undisputed crown jewel of the district. From historic locations that transport you to a time when it acted as the commercial hub of the legendary Spice Route to exotic trips on boats where one can simply relax and soak in the weather, Kochi never disappoints. Ernakulam has always epitomized the Malayali spirit of welcoming all who visit it and this tradition continues to this day.</p>                        
+                  
+                  <!-- <hr class="mb-5"> -->
+              </section>
+                              
+  </section>
+</div>
+<hr>
+  <h2>Tourist Attractions</h2>
+  <hr>
+  <div>
+    <div class="row">
+        <div class="col-md">
+          <div class="thumbnail">
+            <div>
+              <img src="{% static '/images/Kochi-City.jpg' %}" class="rounded" alt="kochi" style="width:100%">
+              <div class="caption">
+                <h2 class="tm-content-title">Kochi</h2>
+                <p> Kochi (also known as Cochin) is a city in southwest India's coastal Kerala state. It has been a port since 1341, when a flood carved out its harbor and opened it to Arab, Chinese and European merchants. Sites reflecting those influences include Fort Kochi, a settlement with tiled colonial bungalows and diverse houses of worship.
+</p>
+                  <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col-md">
+                  <div class="thumbnail">
+                    <div>
+                      <img src="https://www.holidify.com/images/cmsuploads/square/Suspension_bridge_between_Ezhattumukham_and_Thumpoormuzhy_20200207114123.jpeg" class="rounded" alt="Kadalundi Bird Sanctuary" style="width:100%">
+                      <div class="caption">
+                        <h2 class="tm-content-title">Ezhattumugham</h2>
+                        <p>11.8km away from the Cochin International Airport is the small but magnificent village of Ezhattumugham. It is known for its Thumboormozhi dam and oil palm plantation. This village in Ernakulam, Kerala has been promoted as a tourism vilage known as Prakriti Gramam (Nature Village).</p>                        
+                        <hr>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+  </div>
+  <hr>
+
+
+<div>
+    <div class="row">
+        <div class="col-md">
+          <div class="thumbnail">
+            <div>
+              <img src="https://www.holidify.com/images/cmsuploads/square/PavakkulamTempleErnakulam_20200217172700.jpg" class="rounded" alt="Muzhappilangad drive in beach" style="width:100%">
+              <div class="caption">
+                <h2 class="tm-content-title">Pavakkulam Temple</h2>
+                            <p>The Pavakkulam Temple in Kaloor, Ernakulam is dedicated to Lord Mahadeva (Shiva). It is known for its simple yet exquisite architecture and wood carvings. It is said that this temple provides you with an immediate sense of tranquility.</p>                        
+                            <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="col-md">
+                  <div class="thumbnail">
+                    <div>
+                      <img src="https://www.holidify.com/images/cmsuploads/square/Paniyeli_Poru_-_E0B4AAE0B4BEE0B4A3E0B4BFE0B4AFE0B587E0B4B2E0B4BF_E0B4AAE0B58BE0B4B0E0B58D_02_20200217173931.jpg" class="rounded" alt="payyambal beach" style="width:100%">
+                      <div class="caption">
+                        <h2 class="tm-content-title">Paniyeli Poru</h2>
+                        <p>Located on the Periyar River, Paniyeli Poru is a spot in Ernakulam that has been a tourist attraction for years. The natural bottleneck formed by River Periyar has led to an interesting and wild convergence of waters over a rocky terrain.</p>                        
+                        <hr>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+          
+               
+  </div>
+</section>
+ 
+  </main>
+ 
+
+
+<!-- Footer -->
+<footer >
+<section id="lab_social_icon_footer">
+
+  <div class="container">
+          <div class="text-center center-block">
+                  <a href=""><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href=""><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href=""><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+      </div>
+  </div>
+  </section>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 bg-dark text-white">© Al 2021 Copyright:
+      <a href="/index/">keralatourism</a>
+    </div>
+    <!-- Copyright -->  
+  </footer>
+<!-- Footer -->
+
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
